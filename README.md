@@ -1,16 +1,37 @@
-# ProjectAnimalCrossing
+# ProjectNintendoSwitch aka ProjectAnimalCrossing
+
+____
 
 ## Dependency
-- Node 
-- AWS Simple Email Service(SES) for email notification
-- AWS-SDK (node version)
+
+- [NodeJS](https://nodejs.org/en/download/)
+- AWS Account
+- AWS Simple Email Service (SES)
+- [AWS CLI Version 1](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html)
 
 ## Instruction
-0. clone this repo, run "npm install" to install dependencies
-1. Change url, cookie, sourceEmailAddr, destinationEmailAddrs
-2. You need an AWS account and follow AWS SES tutorial to setup your email for sending and receving notifications
-3. Run "node index.js" in the home directory in your local environment. Keep your machine and internet connection on.
 
-## Notes
+1. Clone the repository and cd into project
+
+2. Install node packages
+
+    ```bash
+    npm install
+    ```
+
+3. Update the necessary fields:
+3.1. **sourceEmailAddr** = The email address the reciever will see
+3.2. **destinationEmailAddrs** = The email addresses that will be notified
+
+4. In AWS SES, verify all the e-mail addresses added to the fields above in the **Email Addresses** section
+
+5. Run the NodeJS server
+
+    ```bash
+    node index.js
+    ```
+
+## Important Notes
+
 - You don't need Cookie IF your shipping method is not local store pick up (e.g. you are in Canada).
 - In the Cookie, the "customerZipCode=xxxxx" section is needed to help the website know where are you located, so that the availability for local store pick up can be checked.
