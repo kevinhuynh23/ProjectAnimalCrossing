@@ -1,7 +1,5 @@
 # ProjectNintendoSwitch aka ProjectAnimalCrossing
 
-____
-
 ## Dependency
 
 - [NodeJS](https://nodejs.org/en/download/)
