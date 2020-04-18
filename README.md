@@ -33,5 +33,5 @@ ____
 
 ## Important Notes
 
-- You don't need Cookie IF your shipping method is not local store pick up (e.g. you are in Canada).
-- In the Cookie, the "customerZipCode=xxxxx" section is needed to help the website know where are you located, so that the availability for local store pick up can be checked.
+- **Cookie** only needs to be filled in if you need in-store pickup
+- In the **Cookie**, the "customerZipCode=xxxxx" section is needed to help the website know where are you located, so that the availability for local store pick up can be checked.
