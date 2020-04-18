@@ -18,8 +18,10 @@
     ```
 
 3. Update the necessary fields:
-3.1. **sourceEmailAddr** = The email address the reciever will see
-3.2. **destinationEmailAddrs** = The email addresses that will be notified
+
+    **sourceEmailAddr** = The email address the reciever will see
+
+    **destinationEmailAddrs** = The email addresses that will be notified
 
 4. In AWS SES, verify all the e-mail addresses added to the fields above in the **Email Addresses** section
 
